@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Create Team";
+}
+
+
+<div class="center-contents" id="_info-add">
+    <h1 class="_title">Create Team</h1>
+    <br />
+    <div class="d-flex justify-content-between box">
+        <div class="left" style="border:none;">
+            <p>
+                <div><strong>Team Name</strong></div>
+                <input name="teamName" style="width:100%" />
+            </p>
+            <p>
+                <div for="teamMembers" class="d-flex justify-content-between">
+                    <strong>Select Team Member</strong>
+                </div>
+                <select name="teamMembers" style="width:100%">
+                    <option value="">~Select Team Member~</option>
+                </select>
+                <p><button type="button" style="margin:10px auto">Add Team Member</button></p>
+            </p>
+            <p>
+                <div><strong>Add New Member</strong></div>
+                <div style="border:1px solid #ccc; padding:10px;" id="_info-form">
+                    <p>
+                        <label for="FirstName">First Name</label>
+                        <input name="FirstName" />
+                    </p>
+                    <p>
+                        <label for="LastName">Last Name</label>
+                        <input name="LastName" />
+                    </p>
+                    <p>
+                        <label for="Email">Email</label>
+                        <input name="Email" />
+                    </p>
+                    <p>
+                        <label for="CellPhone">Cell Phone</label>
+                        <input name="CellPhone" />
+                    </p>
+                    <p><button type="button" style="margin:10px auto">Create Member</button></p>
+                </div>
+            </p>
+        </div>
+        <div class="right">
+            <ul class="list-wrapper">
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+                <li>List 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>
+        <button type="submit">Create Team</button>
+    </p>
+</div>

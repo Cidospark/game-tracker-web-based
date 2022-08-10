@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WXQxBjCfQHZIHPTBW0hXzS8rsZlIGyHZweuIqJkAnxhCmviubIj4dFFmHyjMWk6YStwHQtKYYE6j+Dz7BVqNaQ==",
+  "success": true,
+  "projectFilePath": "/Users/macbook/Projects/Refactored/Tournament/TournamentLib/TournamentLib.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/bin/Debug/netcoreapp3.1/TournamentLib.deps.json
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/bin/Debug/netcoreapp3.1/TournamentLib.dll
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/bin/Debug/netcoreapp3.1/TournamentLib.pdb
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.csproj.AssemblyReference.cache
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.AssemblyInfoInputs.cache
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.AssemblyInfo.cs
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.dll
+/Users/macbook/Projects/Refactored/Tournament/TournamentLib/obj/Debug/netcoreapp3.1/TournamentLib.pdb

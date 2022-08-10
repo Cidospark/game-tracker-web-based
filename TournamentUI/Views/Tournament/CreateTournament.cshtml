@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Create Tournament";
+}
+
+
+<div class="center-contents">
+    <h1 class="_title">Create Tournament</h1>
+    <br />
+    <div class="d-flex justify-content-between box">
+        <div class="left" style="border:none;">
+            <p>
+                <div><strong>Tournament Name</strong></div>
+                <input name="tournamentName" style="width:100%" />
+            </p>
+            <p>
+                <label for="entryFee"><strong>Entry Fee</strong></label>
+                <input name="entryFee" />
+            </p>
+            <p>
+                <div for="teams" class="d-flex justify-content-between">
+                    <strong>Select Team</strong>
+                    <a href="#">create new</a>
+                </div>
+                <select name="teams" style="width:100%" >
+                    <option value="">~Select Team~</option>
+                </select>
+                <p><button type="button" style="margin:10px auto" >Add Team</button></p>
+            </p>
+            <p>
+                <button type="button" style="margin:10px auto">Create Prize</button>
+            </p>
+        </div>
+        <div class="right">
+            <div class="d-flex align-items-center _form" id="team-players">
+                <div class="left">
+                    <div><strong>Team / Players</strong></div>
+                    <ul class="list-wrapper">
+                        <li>List 1</li>
+                        <li>List 2</li>
+                        <li>List 3</li>
+                        <li>List 4</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <button type="submit">Delete Selected</button>
+                </div>
+            </div>
+            <div class="d-flex align-items-center _form" id="prizes">
+                <div class="left">
+                    <div><strong>Prizes</strong></div>
+                    <ul class="list-wrapper">
+                        <li>List 1</li>
+                        <li>List 2</li>
+                        <li>List 3</li>
+                        <li>List 4</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <button type="submit">Delete Selected</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <button type="submit">Create Tournament</button>
+    </p>
+</div>

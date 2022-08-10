@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Viewer Page";
+}
+
+
+<div class="center-contents">
+    <h1 class="_title">Tournament Viewer</h1>
+    <h3>Tournament: name</h3>
+    <br/>
+    <div>
+        <p>
+            <label for="rounds"><strong>Round</strong></label>
+            <select name="rounds">
+                <option value="">~Select Round~</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" value="0" /> Unplayed Only
+        </p>
+    </div>
+    <br/>
+    <div class="d-flex justify-content-between box">
+        <div class="left">
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+                <li>List 4</li>
+            </ul>
+        </div>
+        <div class="right">
+            <form class="d-flex align-items-center _form">
+                <div class="left">
+                    <p>
+                        <div><strong>Sample Team 1</strong></div>
+                        <input name="team1Score" />
+                    </p>
+                    <div id="versus">VS</div>
+                    <p>
+                        <div><strong>Sample Team 2</strong></div>
+                        <input name="team2Score" />
+                    </p>
+                </div>
+                <div class="right">
+                    <button type="submit">Score</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
